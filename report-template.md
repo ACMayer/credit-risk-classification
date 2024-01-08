@@ -10,6 +10,11 @@ In this section, describe the analysis you completed for the machine learning mo
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
+# Answer:
+The purpose of this particular anaylsis was to design a machine learning model that would be able to predict the odds of a loan being either healthy or high risk based on a multitude of factors relating to loans including but not limited to: Loan size, interest rate, borrows income and total debt. In this specific dataset that was being analysed the loan status, which was the target variable, was binary whereby healthy loans and highrisk loans where classed by either a 0/1 respectively. 
+There are different stages involved in the machine learning process, it started off with data loading where the csv is loading into a Pandas DataFrame, then the data gets examined and the types of each column was checked. The data was then split  into the labels (y-variable) and the features (x-variables). The data was then split into test and training sets. A logisitc regression model was trained using the training data. The model made predictions on the testing set and then  a confusion matrix and classfication report was produced to evaluate the model. The main machine learning process used in this anaylsis was a logistic regression model. A logigstic regression model can usually assist with predictions on classifying binary data. 
+
+
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
